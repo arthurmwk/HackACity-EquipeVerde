@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- PAGE settings -->
+  <link rel="icon" href="https://templates.pingendo.com/assets/Pingendo_favicon.ico">
+  <title>Landing</title>
+  <meta name="description" content="Wireframe design of a landing page by Pingendo">
+  <meta name="keywords" content="Pingendo bootstrap example template wireframe landing">
+  <meta name="author" content="Pingendo">
+  <!-- CSS dependencies -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="wireframe.css">
+</head>
+
+<body class="">
+  <script src="pesquisa.js"></script>
+  <div class="h-50 d-flex align-items-center bg-info">
+    <div class="container">
+      <div class="row">
+        <div class="mx-auto text-center col-md-6">
+          <h1 class="display-1 text-white">Projeto</h1>
+          <p class="lead text-primary">Lead paragraph -&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-12 mb-3">
+      <input type="text" id="myFilter" class="form-control" onkeyup="myFunction()" placeholder="Search for names..">
+    </div>
+    <select id="filterBairro">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="opel">Opel</option>
+      <option value="audi">Audi</option>
+    </select>
+    <select id="filterPrecoAluguel">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="opel">Opel</option>
+      <option value="audi">Audi</option>
+    </select>
+    <select id="filterPrecoCondominio">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="opel">Opel</option>
+      <option value="audi">Audi</option>
+    </select>
+    <select id="filterAnimais">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="opel">Opel</option>
+      <option value="audi">Audi</option>
+    </select>
+      <input type="checkbox" id="filterProxHospital" value="Próximo a Hospitais" onclick="myFunction()"> Próximo a Hospitais<br>
+      <input type="checkbox" id="filterProxPraca" value="Próximo a Praças" onclick="myFunction()"> Próximo a Praças<br>
+      <input type="checkbox" id="filterProxCentro" value="Próximo a Centros Comunitários" onclick="myFunction()"> Próximo a Centros Comunitários<br>
+      <input type="checkbox" id="filterProxEscola" value="Próximo a Escolas" onclick="myFunction()"> Próximo a Escolas<br>
+      <input type="checkbox" id="filterProxFarmacia" value="Próximo a Farmácias" onclick="myFunction()"> Próximo a Farmácias<br>
+  </div>
+  <div class="row" id="myItems">
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title"><a href="#">Card One</a></h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some text.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title"><a href="#">Card Volvo</a></h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some text.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title"><a href="#">Card Saab</a></h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some text.</p>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Card Opel</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some text.</p>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title"><a href="#">Card Audi</a></h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some text.</p>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title"><a href="#">Card Six</a></h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some text.</p>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title"><a href="#">Card Seven</a></h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some text.</p>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title"><a href="#">Card Eight</a></h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some text.</p>
+        </div>
+      </div>      
+    </div>    
+  </div>
+</div>
+  <div class="bg-info p-4">
+    <div class="container">
+      <div class="row">
+        <div class="p-0 col-lg-4 col-md-6">
+          <img class="img-fluid" src="https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyDW8nO9JhT_pEjebobq9pgUF2cEp0EUb1I&amp;markers=folsom+Ave+san+francisco&amp;center=folsom+Ave+san+francisco&amp;zoom=16&amp;size=640x450&amp;sensor=false&amp;scale=2"> </div>
+        <div class="col-md-5 align-self-center p-4 offset-md-1">
+          <h4>Heading</h4>
+          <p class="mb-4 text-primary">795 Folsom Ave, Suite 600 <br>San Francisco, CA 94107 <br> <abbr title="Phone">P:</abbr> (123) 456-7890 </p>
+          <div class="row text-center">
+            <div class="col-md-2 col-3">
+              <a href="#" target="_blank"><i class="fa fa-facebook text-primary fa-2x"></i></a>
+            </div>
+            <div class="col-md-2 col-3">
+              <a href="#" target="_blank"><i class="fa fa-twitter text-primary fa-2x"></i></a>
+            </div>
+            <div class="col-md-2 col-3">
+              <a href="#" target="_blank"><i class="fa fa-instagram text-primary fa-2x"></i></a>
+            </div>
+            <div class="col-md-2 col-3">
+              <a href="#" target="_blank"><i class="fa text-primary fa-2x fa-pinterest-p"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-dark py-3">
+    <div class="container">
+      <div class="row d-flex justify-content-between">
+        <div class="col-lg-4 col-md-6">
+          <p class="text-secondary mb-0">Copyright - Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <p class="text-secondary mb-0">2018 - Lorem ipsum dolor sit amet</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+
+</html>
